@@ -13,9 +13,7 @@ Periodic spatiotemporal activity patterns are observed in recordings of gastroin
 
 **Recomposition**
 - Recompose sinusoidal wavelets
-- Specify arbitrary recomposition wavelets
 - Gastric slow wave recomposition weighting function
-- Specify arbitrary weighting functions
 
 **Recurrence**
 - Multi-electrode phase signal embedding
@@ -25,7 +23,7 @@ Periodic spatiotemporal activity patterns are observed in recordings of gastroin
 - Radial wavefront
 - Linear wavefront
 - Colliding wavefronts
-
+- Phase signal to event markers (GEMS<sup>4</sup> format)
 **Quantification**
 - Recurrence quantification metrics
 - Windowed recurrence quatification metrics
@@ -33,14 +31,9 @@ Periodic spatiotemporal activity patterns are observed in recordings of gastroin
 
 **Visualisation**
 - Recurrence plots
-- Tiled spatial subset recurrence plots
 - Rolling window recurrence quantification metrics
 - Compare window classes
  
-**GEMS<sup>4</sup> interface**
-- Phase signal to event markers
-- Event markers to phase signal
-
 # References
 <sup>1</sup> Kuklik P, Zeemering S, Maesen B, Maessen J, Crijns HJ, Verheule S, Ganesan AN, Schotten U. Reconstruction of instantaneous phase of unipolar atrial contact electrogram using a concept of sinusoidal recomposition and hilbert transform. (2015) IEEE Trans Biomed Eng 62: 296–302. doi: 10.1109/TBME.2014.2350029.
 
