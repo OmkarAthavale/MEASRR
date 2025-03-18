@@ -11,7 +11,7 @@ Periodic spatiotemporal activity patterns are observed in recordings of gastroin
 
 ## Usage
 1) Clone or download and extract the MEASRR repository.
-2) In the MATLAB console window enter ```addpath(genpath('path/to/MEASRR'))```
+2) In the MATLAB console window enter ```addpath(genpath('path/to/MEASRR'))``` with the path modified to point to the match the MEASRR directory.
 
 Developed for MATLAB 2020b.
 
