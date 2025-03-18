@@ -33,14 +33,9 @@ Developed for MATLAB 2020b.
 
 **Quantification**
 - Recurrence quantification metrics
-- Windowed recurrence quatification metrics
+- Windowed recurrence quantification metrics
 - Rolling window recurrence quantification metrics
 
-**Visualisation**
-- Recurrence plots
-- Rolling window recurrence quantification metrics
-- Compare window classes
- 
 ## References
 <sup>1</sup> Kuklik P, Zeemering S, Maesen B, Maessen J, Crijns HJ, Verheule S, Ganesan AN, Schotten U. Reconstruction of instantaneous phase of unipolar atrial contact electrogram using a concept of sinusoidal recomposition and hilbert transform. (2015) IEEE Trans Biomed Eng 62: 296–302. doi: 10.1109/TBME.2014.2350029.
 
