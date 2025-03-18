@@ -7,7 +7,6 @@ function output = createRollingWindow(vector, n)
 % David Young, 2015. Retrieved from Matlab Central
 % https://au.mathworks.com/matlabcentral/answers/171154-create-rolling-window-matrix-from-vector#answer_166697
 %
-% Copyright (C) 2025 Omkar Athavale
 % This program is free software: you can redistribute it and/or modify
 % it under the terms of the GNU General Public License as published by
 % the Free Software Foundation, either version 3 of the License, or
