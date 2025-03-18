@@ -25,6 +25,11 @@ function toaMap = resampleElectrode(maps, domain, spatialRes, arrayX, arrayY, tr
 %   toaMap:     1 x p cell array containing 1 x m*n numeric arrays with the 
 %               activation time in each electrode for each wave
 %
+% This code is provided "as is" without any warranties, express or implied. 
+% The author(s) and contributors shall not be held liable for any damages, including 
+% but not limited to direct, indirect, incidental, special, or consequential damages, 
+% arising out of the use or inability to use this code.
+% Any modifications or redistribution of this code should retain this limited liability statement.
 
 % transform array
 trfArray = arrayfun(@(x, y) translate+transform*[x;y], arrayX, arrayY, 'UniformOutput', 0) ;
