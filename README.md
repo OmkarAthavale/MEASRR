@@ -30,6 +30,7 @@ Developed for MATLAB 2020b.
 - Linear wavefront
 - Colliding wavefronts
 - Phase signal to event markers (GEMS<sup>4</sup> format)
+
 **Quantification**
 - Recurrence quantification metrics
 - Windowed recurrence quatification metrics
