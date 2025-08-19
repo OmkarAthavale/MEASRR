@@ -64,7 +64,7 @@ zeroFreqs = find(freqAll < 0.015);
 % calculate frequency of all channels
 t1=tic;
 newSigValues = nan(size(sigSegment));
-for i = 1:size(sigSegment,1)
+parfor i = 1:size(sigSegment,1)
     if ismember(i, zeroFreqs)
         newSigValues(i, :) = nan;
     else
@@ -72,7 +72,7 @@ for i = 1:size(sigSegment,1)
         freqToRecomp = freqAll(i);
         
         T = 1/freqToRecomp ;
-        tt = 0:1/fs:T+1/fs ; % time step for one time period
+        tt = 0:1/fs:(T+1/fs) ; % time step for one time period
         sine_wavelet = sin(2 * pi * freqToRecomp * tt);
         
         centerVal = round(length(sine_wavelet)/2);
